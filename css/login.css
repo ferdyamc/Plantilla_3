@@ -1,0 +1,147 @@
+form{
+	width: 375px;
+	height: 350px;
+	box-shadow: 0px 0px 20px lightgray;
+	margin-top: 200px;
+	margin-bottom: 130px;
+}
+form h1{
+	text-align: center;
+	color: #0a6d31;
+	font-size: 2em;
+	font-family: 'Source Sans Pro',sans-serif;
+	font-weight: lighter;
+	padding-top: 30px;
+	padding-bottom : 20px;
+	cursor: default;
+}
+.caja-inp {
+	width: 75%;
+	height: 24px;
+	margin-top: 30px;
+	display: flex;
+	border: 1px solid lightgray;
+}
+.caja-inp .inp{
+	width: 85%;
+	height: 24px;
+	border: none;
+	outline: none;
+	color: gray;
+}
+.caja-inp div{
+	width: 15%;
+	height: 24px;
+	background: #E5E5E5;
+}
+.caja-inp div img{
+	width: 15px;
+	margin-top: 3px;
+}
+.caja-inp2 {
+	width: 75%;
+	height: 24px;
+	margin-top: 30px;
+	display: flex;
+	color: #0a6d31;
+	font-size: 0.85em;
+}
+.caja-inp2 div{
+	margin-left: 0;
+}
+.rec{
+	cursor: default;
+}
+.olvi{
+	margin-right: 0px;
+}
+.olvi p{
+		color: #0a6d31;
+}
+.btn-ingreso{
+	width: 75%;
+	height: 27px;
+	margin-top: 30px;
+	background: #0a6d31;
+	color:white;
+	border: none;
+	cursor: pointer;
+}
+.btn-ingreso:hover{
+	background: white;
+	border: 1px solid #0a6d31;
+	color: #0a6d31;
+}
+.anm{
+	width: 160px;
+	position: fixed;
+	bottom: 80px;
+	left: 40px;
+}
+.ga{
+	width: 100px;
+	position:fixed;
+	bottom: 80px;
+	right: 40px;
+}
+@media screen and (max-width:1024px ) and (min-width:768px ){
+	footer p{
+		font-size: small;
+	}
+	.anm{
+		width: 15%;
+	}
+	.ga{
+		width: 10%;
+	}
+}
+
+@media screen and (max-width:767px ) and (min-width:480px ){
+	.anm{
+		top: 30px;
+		left: 35%;
+	}
+	.ga{
+		width: 80px;
+		top: 25px;
+		right: 40px;
+	}
+	.p-footer-2{
+		display: none;
+	}
+	footer p{
+		font-size: small;
+	}
+}
+
+@media screen and (max-width:479px ) and (min-width:320px ){
+	.logo-sigma{
+		width: 120px;
+		top: 5px;
+	}
+	form{
+		width: 325px;
+	}
+	.anm{
+		width: 110px;
+		top: 30px;
+		left: 38%;
+	}
+	.ga{
+		width: 70px;
+		top: 20px;
+		right: 40px;
+	}
+	.p-footer-2{
+	display: none;
+	}
+	footer p{
+		font-size: small;
+	}
+}
+
+@media screen and (max-width:319px ) and (min-width:0px ){
+	footer p{
+		font-size: small;
+	}
+}

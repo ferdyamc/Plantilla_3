@@ -1,0 +1,48 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	text-decoration: none;
+}
+.blanco{
+	position:fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 80px;
+	background: white;
+}
+.logo-sigma{
+	position: fixed;
+	top: 2px;
+	left: 20px;
+	width: 150px;
+}
+.cabecera{
+	width: 100vw;
+	height: 50px;
+	background: #0a6d31;
+	position: fixed;
+	top: 80px;
+}
+.icono-help img{
+	width: 30px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 25px;
+}
+
+footer{
+	width: 100vw;
+	height: 50px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #0a6d31;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+}
+footer p{
+	margin-top: 15px;
+}
